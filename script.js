@@ -38,7 +38,7 @@ $(document).ready(() => {
   
       //JQuery AJAX
       $.ajax({
-        url: "http://localhost:8000/submit_form",
+        url: "https://shweta77774.github.io/assignmentb/",
         headers: {
           "Content-Type": "application/json;charset=UTF-8"
         },
