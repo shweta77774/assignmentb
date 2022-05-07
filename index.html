@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <link href="app.css" type="text/css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <h1>AJAX-FORM</h1>
+    <div id="form-message"></div>
+    <div id="form">
+      <label for="username">Username</label>
+      <input id="username" name="username" type="text" spellcheck="false" />
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" spellcheck="false" />
+      <div id="show_password">
+        <input id="checkbox" type="checkbox" />
+        <p>show password</p>
+      </div>
+      <div id="agree">
+        <input id="checkbox" type="checkbox" />
+        <p>I agree to all the <span id="terms">Terms and Conditions</span></p>
+      </div>
+    </div>
+    <button id="btn-submit" disabled>Submit</button>
+    <script src="script.js"></script>
+  </body>
+</html>
